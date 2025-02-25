@@ -11,13 +11,14 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
-    <!-- Loader -->
+    <!-- Loader con AR Mejorado -->
     <div id="loader">
-        <div class="loader-spinner"></div>
+        <div class="ar-loader">
+            <i class="fas fa-qrcode"></i>
+            <div class="scan-line"></div>
+            <p>Escaneando tu experiencia...</p>
+        </div>
     </div>
-
-    <!-- Fondo de Partículas -->
-    <div id="particles"></div>
 
     <!-- Menú de Navegación -->
     <nav>
@@ -46,7 +47,7 @@
         </div>
     </nav>
 
-    <!-- Sección Inicio (con movimiento) -->
+    <!-- Sección Inicio (Original) -->
     <section id="inicio" class="hero">
         <div class="hero-content" data-aos="fade-up">
             <h2 class="slide-left">Transformando Ideas en Soluciones Digitales</h2>
@@ -62,10 +63,10 @@
                 <img src="img/IMG_20241018_175917544_AE.jpg" alt="Piero L. - Estudiante UTP">
             </div>
             <div class="sobre-mi-texto" data-aos="fade-left">
-                <h3>¡Hola! Soy Piero L.</h3>
+                <h3 class="glow-title">¡Hola! Soy Piero L.</h3>
                 <p class="destacado">Estudiante de Ingeniería de Sistemas e Informática</p>
                 <div class="info-grid">
-                    <div class="info-item">
+                    <div class="info-item holographic">
                         <i class="fas fa-university"></i>
                         <div>
                             <h4>Formación Académica</h4>
@@ -75,7 +76,7 @@
                             Lima, Perú | 2020 - Actualidad</p>
                         </div>
                     </div>
-                    <div class="info-item">
+                    <div class="info-item holographic">
                         <i class="fas fa-laptop-code"></i>
                         <div>
                             <h4>Tecnologías Principales</h4>
@@ -93,19 +94,19 @@
 
     <!-- Sección Servicios -->
     <section id="servicios" class="servicios">
-        <h3 data-aos="fade-up">Mis Servicios</h3>
+        <h3 class="glow-title" data-aos="fade-up">Mis Servicios</h3>
         <div class="servicios-grid">
-            <div class="servicio-card" data-aos="zoom-in">
+            <div class="servicio-card holographic" data-aos="zoom-in">
                 <i class="fas fa-code"></i>
                 <h4>Desarrollo Web</h4>
                 <p>Creación de sitios y aplicaciones web responsivas con las últimas tecnologías</p>
             </div>
-            <div class="servicio-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="servicio-card holographic" data-aos="zoom-in" data-aos-delay="200">
                 <i class="fas fa-graduation-cap"></i>
                 <h4>Asesorías Académicas</h4>
                 <p>Apoyo especializado en proyectos universitarios y desarrollo de tesis</p>
             </div>
-            <div class="servicio-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="servicio-card holographic" data-aos="zoom-in" data-aos-delay="400">
                 <i class="fas fa-mobile-alt"></i>
                 <h4>Aplicaciones Móviles</h4>
                 <p>Desarrollo de aplicaciones nativas y multiplataforma para iOS y Android</p>
@@ -115,9 +116,9 @@
 
     <!-- Sección Proyectos -->
     <section id="proyectos" class="proyectos">
-        <h3 data-aos="fade-up">Proyectos Destacados</h3>
+        <h3 class="glow-title" data-aos="fade-up">Proyectos Destacados</h3>
         <div class="proyectos-grid">
-            <div class="proyecto-card" data-aos="flip-left">
+            <div class="proyecto-card holographic" data-aos="flip-left">
                 <img src="img/proyecto-1.jpg" alt="Sistema de Gestión">
                 <div class="proyecto-info">
                     <h4>Sistema de Gestión Escolar</h4>
@@ -128,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="proyecto-card" data-aos="flip-right">
+            <div class="proyecto-card holographic" data-aos="flip-right">
                 <img src="img/proyecto-2.jpg" alt="E-commerce">
                 <div class="proyecto-info">
                     <h4>Tienda Virtual</h4>
@@ -144,13 +145,13 @@
 
     <!-- Sección Testimonios -->
     <section id="testimonios" class="testimonios">
-        <h3 data-aos="fade-up">Testimonios</h3>
+        <h3 class="glow-title" data-aos="fade-up">Testimonios</h3>
         <div class="testimonios-grid">
-            <div class="testimonio-card" data-aos="fade-up">
+            <div class="testimonio-card holographic" data-aos="fade-up">
                 <p>"Piero es un desarrollador excepcional. Su atención al detalle y su capacidad para resolver problemas son impresionantes."</p>
                 <h4>- Juan Pérez</h4>
             </div>
-            <div class="testimonio-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonio-card holographic" data-aos="fade-up" data-aos-delay="200">
                 <p>"Trabajar con Piero fue una gran experiencia. Entregó el proyecto a tiempo y superó nuestras expectativas."</p>
                 <h4>- María López</h4>
             </div>
@@ -159,17 +160,17 @@
 
     <!-- Sección Contacto -->
     <section id="contacto" class="contacto">
-        <h3 data-aos="fade-up">Trabajemos Juntos</h3>
+        <h3 class="glow-title" data-aos="fade-up">Trabajemos Juntos</h3>
         <div class="contacto-info">
-            <div class="info-item" data-aos="zoom-in">
+            <div class="info-item holographic" data-aos="zoom-in">
                 <i class="fab fa-whatsapp" style="font-size: 24px; color: #25D366;"></i>
                 <a href="https://wa.me/51982108849?text=Hola,%20quiero%20saber%20más%20sobre%20tus%20servicios">+51 982108849</a>
             </div>
-            <div class="info-item" data-aos="zoom-in" data-aos-delay="200">
+            <div class="info-item holographic" data-aos="zoom-in" data-aos-delay="200">
                 <i class="fas fa-envelope"></i>
                 <p>contacto@pierodev.com</p>
             </div>
-            <div class="info-item" data-aos="zoom-in" data-aos-delay="400">
+            <div class="info-item holographic" data-aos="zoom-in" data-aos-delay="400">
                 <i class="fab fa-github"></i>
                 <a href="https://github.com/Pierolacj" target="_blank">Mi GitHub</a>
             </div>
